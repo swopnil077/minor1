@@ -1,0 +1,62 @@
+/* Form container */
+form {
+    width: 50%;
+    margin: 50px auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Text input fields */
+input[type="text"], input[type="file"] {
+    width: calc(100% - 20px); /* Take up 100% width minus padding */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e74b4b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #ee2c2c;
+}
+
+/* Success message */
+.success {
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+/* Error message */
+.error {
+    color: red;
+    margin-top: 10px;
+}
+h2{
+    color: #4d2d52;
+    font-family: 'Garamond', serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+body{
+    background-image: url('testbg.jpg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
